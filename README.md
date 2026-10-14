@@ -1,0 +1,35 @@
+# JavaScript-para-Iniciantes--06
+
+Condicionais Else If
+Se o if não for verdadeiro, ele testa o else if
+
+var possuiGraduacao = true;
+var possuiDoutorado = false;
+
+if(possuiDoutorado) {
+  console.log('Possui graduação e doutorado');
+} else if(possuiGraduacao) {
+  console.log('Possui graduação, mas não possui doutorado');
+} else {
+  console.log('Não possui graduação');
+}
+// retorna Possui Graduação, mas não possui doutorado
+Copiar
+Switch
+Com o switch você pode verificar se uma variável é igual à diferentes valores utilizando o case. Caso ela seja igual, você pode fazer alguma coisa e utilizar a palavra chave break; para cancelar a continuação. O valor de default ocorrerá caso nenhuma das anteriores seja verdadeira.
+
+var corFavorita = 'Azul';
+
+switch (corFavorita) {
+  case 'Azul':
+    console.log('Olhe para o céu.');
+    break;
+  case 'Vermelho':
+    console.log('Olhe para rosas.');
+    break;
+  case 'Amarelo':
+    console.log('Olhe para o sol.');
+    break;
+  default:
+    console.log('Feche os olhos');
+}
